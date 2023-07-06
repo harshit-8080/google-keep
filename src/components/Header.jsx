@@ -5,8 +5,13 @@ import BookIcon from "@mui/icons-material/Book";
 function Header() {
     return (
         <>
-            <BookIcon />
-            Google Keep
+            <header>
+                <h1>
+                    <BookIcon />
+                    &nbsp;
+                    Google Keep
+                </h1>
+            </header>
         </>
     )
 }

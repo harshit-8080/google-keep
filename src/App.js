@@ -1,6 +1,6 @@
 import "./App.css";
-import BookIcon from "@mui/icons-material/Book";
-import Header from "./components/Header";
+import Header from "./components/Header.jsx";
+console.log(Header);
 
 function App() {
   return (
