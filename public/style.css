@@ -1,17 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 header {
-    background-color: mediumseagreen;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: mediumseagreen;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.note-container {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  margin: 30px auto;
+  /* height: 300px; */
+
+  background-color: rgb(53, 170, 224);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 10px;
+
+  box-shadow: 0, 1px, 3px, rgba(0, 0, 0, 0.3);
+}
+
+.note-container input {
+  border: none;
+  padding: 10px;
+
+  outline: none;
+
+  background-color: transparent;
+
+  font-size: 32px;
+}
+
+.note-container textarea {
+  border: none;
+  padding: 10px 20px;
+
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  resize: none;
+}
+
+.all-note-container {
+  width: 300px;
+  height: 200px;
+  background-color: lightcyan;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+}
+
+.delete {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
 }
