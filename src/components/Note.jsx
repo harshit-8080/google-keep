@@ -6,7 +6,6 @@ const Note = (props) => {
     function deleteNote() {
         props.onDelete(props.id);
     }
-
     return (
         <>
             <div className='all-note-container'>

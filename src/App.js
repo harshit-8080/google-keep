@@ -11,14 +11,12 @@ function App() {
     setallNotes((prevNotes) => {
       return [...prevNotes, newNote];
     });
-
-    // console.log(allNotes);
   }
 
   function deleteNote(id) {
     console.log(id);
     let arr = allNotes.filter((note, index) => {
-      return index != id;
+      return index !== id;
     });
 
     setallNotes(arr);
